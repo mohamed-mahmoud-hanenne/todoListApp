@@ -4,8 +4,6 @@
 **TodoListApp** est une application web développée avec **Angular**, permettant de gérer une liste de tâches (Todo List).  
 Elle implémente les opérations fondamentales du **CRUD** : créer, lire, modifier et supprimer des tâches.
 
-Ce projet a été réalisé dans un objectif pédagogique afin de maîtriser les bases du framework Angular.
-
 ---
 
 ## 🎯 Fonctionnalités
@@ -45,3 +43,9 @@ ng serve
 
 Ouvrir dans le navigateur :
 http://localhost:4200
+
+ Hébergé sur Vercel:
+ https://todo-list-app-neon-rho.vercel.app/
+
+## Démo
+https://github.com/user-attachments/assets/130b30a7-9707-4e1e-8104-a881e2112670

@@ -1,59 +1,47 @@
-# Todolist
+# 📝 TodoListApp – Application Angular CRUD
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.7.
+## 📌 Présentation
+**TodoListApp** est une application web développée avec **Angular**, permettant de gérer une liste de tâches (Todo List).  
+Elle implémente les opérations fondamentales du **CRUD** : créer, lire, modifier et supprimer des tâches.
 
-## Development server
+Ce projet a été réalisé dans un objectif pédagogique afin de maîtriser les bases du framework Angular.
 
-To start a local development server, run:
+---
 
-```bash
+## 🎯 Fonctionnalités
+- Ajouter une tâche
+- Afficher la liste des tâches
+- Modifier une tâche existante
+- Supprimer une tâche
+- Interface simple et intuitive
+
+---
+
+## 🛠️ Technologies utilisées
+- **Angular**
+- **TypeScript**
+- **HTML / CSS**
+- **Angular CLI**
+
+---
+
+## 📂 Structure du projet
+<img width="393" height="281" alt="Screenshot (840)" src="https://github.com/user-attachments/assets/2c263512-e858-4392-9322-74f9b75c69fb" />
+
+## 🚀 Lancer l’application
+
+### Prérequis
+- Node.js
+- Angular CLI
+
+Installer Angular CLI :
+npm install -g @angular/cli
+
+Installer les dépendances :
+npm install
+
+Lancer le serveur :
 ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Ouvrir dans le navigateur :
+http://localhost:4200
